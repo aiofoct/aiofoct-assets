@@ -2,6 +2,12 @@
 .max-w-\[900px\] {
 max-width: 100% !important;
 }
+
 .border {
     border: 0px solid #dee2e6 !important;
+}
+
+.post-body img {
+    display: unset !important;
+    margin: 0 !important;
 }
