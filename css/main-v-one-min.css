@@ -445,7 +445,7 @@ span.number_left_item_2,
 
 .section_4_para {
   font-size: 15px;
-  color: #000;
+  color: #fff;
   font-weight: normal;
   text-align: justify;
 }
@@ -516,7 +516,7 @@ span.number_left_item_2,
 
 /*===================================================================================================== SECTION 6 START */
 #section_6 {
-  background: #e0e0e0;
+  background: #000;
 }
 
 .text_one,
