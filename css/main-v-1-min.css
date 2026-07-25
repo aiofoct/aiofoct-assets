@@ -599,7 +599,7 @@ a.cp_a, a.ic_a, a.im_a, a.ig_a, a.dg_a, a.jg_a, a .si_a, a.wp_a, a.jg_a, a.wj_a,
 .about_us_content_wrapper {
     margin: 0 auto;
     padding: 20px;
-    background: #fff;
+    background: #000;
     border-radius: 10px;
     margin: 10% 0 4% 0;
     box-shadow: 0px 5px 16px -2px #3243db;
@@ -608,12 +608,14 @@ a.cp_a, a.ic_a, a.im_a, a.ig_a, a.dg_a, a.jg_a, a .si_a, a.wp_a, a.jg_a, a.wj_a,
 .au_h1 {
     font-size: 40px;
     font-weight: 600;
+    color: #fff !important;
 }
 
 .wt_para {
     font-size: 15px;
     line-height: 1.6;
     text-align: justify;
+    color: #fff;
 }
 
 a.cu_a,
