@@ -1,0 +1,435 @@
+/*========================================================================================= JPG TO PNG CONVERTER START   */
+#section_1 {
+  background: #0355c8;
+}
+
+.convertion_hint {
+  width: 35px;
+}
+
+.convertion_hint_position {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.main_title_text_wrapper {
+  padding: 3% 0 3% 0;
+  margin: 8% 0 0%;
+  position: relative;
+}
+
+.section_1_h6 {
+  font-size: 15px;
+  color: #fff;
+  font-weight: unset;
+  text-align: justify;
+  width: 100%;
+  line-height: 25px;
+}
+
+.jp_h1 {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: 'Poppins';
+  text-align: left;
+  color: #fff;
+}
+
+div.input-wraper-jpg-to-png {
+  width: 100%;
+  text-align: center;
+  background: #47cc761a;
+  margin: 4% 0% 4% 0%;
+  vertical-align: middle;
+  padding: 40px 2% 40px 2%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 16px -2px rgba(42, 115, 217, 0.2);
+  border: 1px solid #F2F2F2;
+}
+
+#fileInput {
+  opacity: 0;
+  display: none;
+}
+
+.cf-align {
+  padding: 16px;
+  margin-bottom: 0 !important;
+}
+
+.cf-align a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.para-dfh-align {
+  font-size: 16px;
+  font-weight: 600;
+  color: #b5cef2;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 40px 0px;
+}
+
+.drop_area_selection {
+  text-decoration: none !important;
+}
+
+.file-input-align {
+  border-radius: 50px;
+  width: 280px;
+  background: #3243db;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 0px auto 10px;
+}
+
+#uploadStatus {
+  display: none;
+  color: green;
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.butten_wraper {
+  padding: 10px;
+}
+
+.button_one {
+  background: #2a73d9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  height: 30px;
+  width: 160px;
+  font-size: 14px;
+}
+
+.button_two {
+  background: #2fa20f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  height: 30px;
+  width: 160px;
+  font-size: 14px;
+}
+
+.button_three {
+  background: #f70303;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  height: 30px;
+  width: 160px;
+  font-size: 14px;
+}
+
+.db_icon {
+  width: 12%;
+  position: relative;
+  top: -1px;
+  right: 7px;
+}
+
+.ud-icon {
+  width: 15%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #uploadStatus {
+    top: 42%;
+  }
+
+  .section_1_para {
+    width: 100%;
+  }
+
+  .main_title_text_wrapper {
+    padding: 20% 0 10% 0;
+  }
+
+  .convertion_hint {
+    width: 35px;
+  }
+  .section_1_h6 {
+    width: 100%; 
+    line-height: 20px;
+  }
+}
+
+/*================================================================================== CONVERTION LOADING SUCCESESSFULL START */
+.loading {
+  cursor: progress;
+}
+
+/*==================================================================================== CONVERTION LOADING SUCCESESSFULL END */
+
+
+
+/*====================================================================================================== DRAG AND DROP START */
+#dropArea {
+  width: 90%;
+  height: 250px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0px auto;
+  position: relative;
+}
+
+#dropArea.drag-over {
+  background-color: #f0f0f0;
+}
+
+#dropArea label {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+/*==================================================================================================== DRAG AND DROP END */
+
+
+
+/*============================================================================= MOB RESPONSIVE START */
+@media only screen and (max-width: 768px) {
+  .file-input-align {
+    width: 230px;
+    font-size: 12px;
+
+  }
+
+  .dfh-align {
+    padding: 24.5% 0 24.5% 0;
+  }
+
+  .button_two,
+  .button_one,
+  .button_three {
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .jp_h1 {
+    font-size: 35px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main_title_h1 {
+    margin: 17% 0 0%;
+  }
+}
+
+/*============================================================================ MOB RESPONSIVE END */
+/*============================================================================================ JPG TO PNG CONVERTER END   */
+
+
+
+/*======================================================================================================= SECTION 4 START */
+.section_4_h2 {
+  font-size: 25px;
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+span.number_left_item_1 {
+  border: 2px solid #3243db;
+  padding: 10px 16px 10px 16px;
+  border-radius: 12px;
+  margin: 0px 10px 0px 0;
+  font-size: 20px;
+  color: #3243db;
+}
+
+span.number_left_item_2,
+.number_left_item_3 {
+  border: 2px solid #3243db;
+  padding: 10px 14px 10px 14px;
+  border-radius: 12px;
+  margin: 0px 10px 0px 0;
+  font-size: 20px;
+  color: #3243db;
+}
+
+.htcjp_h2 {
+  text-align: center;
+  padding-bottom: 65px;
+  padding-top: 30px;
+  font-weight: 500;
+  color: #000;
+  font-size: 50px;
+}
+
+.section_4_para {
+  font-size: 15px;
+  color: #000;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.content_left_wrapper {
+  padding-bottom: 65px;
+}
+
+@media only screen and (max-width: 768px) {
+  .htcjp_h1 {
+    font-size: 40px;
+    padding-bottom: 35px;
+  }
+
+  .content_left_wrapper {
+    padding-bottom: 35px;
+  }
+  .htcjp_h2 {
+    text-align: left;
+    font-size: 35px;
+  } 
+}
+
+/*======================================================================================================= SECTION 4 END */
+
+
+
+/*======================================================================================================= SECTION 5 START*/
+.section_5_main_h2 {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.section_5_ot_pj_h2{
+  font-size: 15px;
+  color: #000;
+  border: 2px solid #3243db;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.section_5_ot_pj_h2 a {
+  text-decoration: none;
+}
+
+.ot_tool_wrapper {
+  display: flex;
+  padding-bottom: 65px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ot_tool_wrapper {
+    display: block;
+  }
+}
+
+/*======================================================================================================= SECTION 5 END*/
+
+
+
+/*===================================================================================================== SECTION 6 START */
+#section_6 {
+  background: #e0e0e0;
+}
+
+.text_one,
+.text_two,
+.text_three {
+  text-align: justify;
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+
+}
+
+.jtpc_h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 40px;
+  text-align: left;
+}
+
+.wsycjp_h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 40px;
+  text-align: left;
+}
+
+.iscjp_h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 40px;
+  text-align: left;
+}
+
+.jtpc_h2_text_one_align {
+  padding-top: 5%;
+}
+
+.iscjp_h2_text_three_align {
+  padding-bottom: 0%;
+}
+
+.iscjp_h2_text_four_align{
+  padding-bottom: 5%;
+}
+.iscjp_h3_text_four_align{
+  padding-bottom: 5%;
+}
+a.cp_a, a.ic_a, a.im_a, a.ig_a, a.dg_a, a.jg_a, a .si_a, a.wp_a, a.jg_a, a.wj_a, a.pg_a, a.cc_a {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .jtpc_h1 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .wsycjp_h2 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .iscjp_h2 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+  }
+  .iscjp_h3 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+/*===================================================================================================== SECTION 6 END */
