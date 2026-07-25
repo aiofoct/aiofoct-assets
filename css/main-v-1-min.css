@@ -641,6 +641,14 @@ a.aio_a {
     text-align: left;
 }
 
+.post-body .privacy_policy_content_wrapper {
+      color: #fff !important;
+      }
+      
+.post-body .privacy_policy_content_wrapper h2, .post-body .privacy_policy_content_wrapper h3 {
+      color: #fff !important;
+      }
+
 @media only screen and (max-width:900px) {
     .privacy_policy_content_wrapper {
         margin-top: 18%;
