@@ -594,3 +594,160 @@ a.cp_a, a.ic_a, a.im_a, a.ig_a, a.dg_a, a.jg_a, a .si_a, a.wp_a, a.jg_a, a.wj_a,
   }
 }
 /*===================================================================================================== SECTION 6 END */
+
+/*============================== ABOUT US START */
+.about_us_content_wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10% 0 4% 0;
+    box-shadow: 0px 5px 16px -2px #3243db;
+}
+
+.au_h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wt_para {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a.cu_a,
+a.aio_a {
+    color: lightseagreen;
+    text-decoration: unset;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px) {
+    .about_us_content_wrapper {
+        margin: 20% 0 8% 0;
+    }
+}
+/*============================== ABOUT US END */
+
+/*========================= PRIVACY & TERMS START */
+.privacy_policy_content_wrapper {
+    margin-top: 10%;
+}
+
+.privacy_policy_content_wrapper p {
+    text-align: left;
+}
+
+@media only screen and (max-width:900px) {
+    .privacy_policy_content_wrapper {
+        margin-top: 18%;
+    }
+}
+/*========================= PRIVACY & TERMS END */
+
+/*=============== CONTACT US FORM START  */
+.contact-form-container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.ct_mail_box {
+    position: absolute;
+    width: 30%;
+    left: 91%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+}
+
+#contact-form {
+    width: 750px;
+}
+
+.cu_h1 {
+    color: #0355c8;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wlh_para {
+    text-align: left;
+}
+
+.input-wrapper {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #0355c8;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #0355c8;
+    border-radius: 5px;
+}
+
+input[type="file"]:hover {
+    border-color: #FF5722;
+}
+
+button.btn_submit {
+    background-color: #0355c8;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 707px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f70303;
+}
+
+#confirmation-message {
+    display: none;
+    font-weight: bold;
+    color: #0355c8;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:900px) {
+    .contact-form-container {
+        width: 100%;
+    }
+
+    .input-wrapper {
+        width: 40%;
+    }
+
+    .ct_mail_box {
+        position: absolute;
+        width: 30%;
+        left: 90%;
+        top: 97%;
+        transform: translate(-50%, -50%);
+    }
+}
+/*====================== CONTACT US FORM END  */
