@@ -2,3 +2,6 @@
 .max-w-\[900px\] {
 max-width: 100% !important;
 }
+.border-white/10 {
+  border: unset !important;
+}
