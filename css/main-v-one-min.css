@@ -151,8 +151,9 @@ div.input-wraper-jpg-to-png {
 }
 
 .cf-align {
-  padding: 16px;
+  padding: 10px;
   margin-bottom: 0 !important;
+  font-weight: normal;
 }
 
 .cf-align a {
