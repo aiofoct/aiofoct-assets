@@ -1,3 +1,100 @@
+/*============================================================================================== CONVERTION LOADER START */
+.ctn_ht_align {
+  height: 0px;
+}
+
+.ctn_popup {
+  width: 70%;
+  height: auto;
+  margin: 0px auto;
+  padding: 3px 0 3px 0;
+  margin-top: 0px;
+  transition: 20s;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ctn_bg {
+  background: #3243db;
+  border-radius: 10px;
+  transition: 20s;
+  height: 130px;
+}
+
+.ctn_popup_text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: '';
+  transition: 20s;
+  position: relative;
+  top: 60px;
+  font-family: 'poppins';
+}
+
+
+.loader-83 {
+  width: 175px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+.loader-83::before {
+  content: "";
+  left: 60px;
+  bottom: 18px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FFF;
+  background-image: radial-gradient(circle 8px at 18px 18px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 18px 0px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 0px 18px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 36px 18px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 18px 36px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 30px 30px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 5px 30px, #3243db 100%, transparent 0), radial-gradient(circle 4px at 5px 5px, #3243db 100%, transparent 0);
+  background-repeat: no-repeat;
+  -webkit-animation: rotationBack 3s linear infinite;
+  animation: rotationBack 3s linear infinite;
+}
+
+.loader-83::after {
+  content: "";
+  left: 94px;
+  bottom: 15px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #FFF;
+  background-image: radial-gradient(circle 5px at 12px 12px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 12px 0px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 0px 12px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 24px 12px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 12px 24px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 20px 20px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 3px 20px, #3243db 100%, transparent 0), radial-gradient(circle 2.5px at 3px 3px, #3243db 100%, transparent 0);
+  background-repeat: no-repeat;
+  animation: rotationBack 4s linear infinite reverse;
+}
+
+/* keyFrames */
+@-webkit-keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+/*============================== MOB RESPONSIVE START */
+@media only screen and (max-width: 768px) {
+  .ctn_popup {
+    top: 34%;
+  }
+}
+
+/*============================== MOB RESPONSIVE END */
+/*=============================================================================================== CONVERTION LOADER END */
+
 /*========================================================================================= JPG TO PNG CONVERTER START   */
 #section_1 {
   background: #0355c8;
