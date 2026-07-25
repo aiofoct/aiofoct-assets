@@ -3,5 +3,5 @@
 max-width: 100% !important;
 }
 .border {
-    border: unset !important;
+    border: 0px solid #dee2e6 !important;
 }
