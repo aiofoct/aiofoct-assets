@@ -433,3 +433,63 @@ a.cp_a, a.ic_a, a.im_a, a.ig_a, a.dg_a, a.jg_a, a .si_a, a.wp_a, a.jg_a, a.wj_a,
   }
 }
 /*===================================================================================================== SECTION 6 END */
+
+/*================================================================================ GOOGLE REVIEW START */
+.gr_h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  color: #333; /* Change the color to your preference */
+  margin-bottom: 40px;
+}
+
+#reviews {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Change the background color to your preference */
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+}
+
+.stars_google {
+  display: inline-block;
+  font-size: 20px;
+  color: #f1c40f; /* Star color */
+}
+
+.stars_trustpilot {
+  display: inline-block;
+  font-size: 20px;
+  color: #00b67a; /* Star color */
+}
+a.a_trustpilot{
+text-decoration: none;
+cursor: pointer;
+}
+a.a_google{
+  text-decoration: none;
+ cursor: pointer;
+}
+
+.review p {
+  font-size: 16px;
+  color: #555;
+}
+/*================================================================================== GOOGLE REVIEW END */
